@@ -1,12 +1,12 @@
 {
   "domain": "ivent",
   "name": "i-Vent Rekuperator",
-  "codeowners": ["@YOUR_USERNAME"],
+  "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/apeiron-M/ha-ivent",
+  "documentation": "https://github.com/ha-ivent/ha-ivent",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/apeiron-M/ha-ivent/issues",
+  "issue_tracker": "https://github.com/ha-ivent/ha-ivent/issues",
   "requirements": [],
   "version": "0.1.0"
 }

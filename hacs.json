@@ -1,7 +1,7 @@
 {
   "name": "i-Vent Rekuperator",
   "domains": ["climate", "fan", "sensor", "switch"],
-  "documentation": "https://github.com/apeiron-M/ha-ivent",
+  "documentation": "https://github.com/ha-ivent/ha-ivent",
   "iot_class": "cloud_polling",
   "render_readme": true
 }
