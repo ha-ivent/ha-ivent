@@ -58,8 +58,7 @@ i-Vent recuperators have no official Home Assistant integration. This integratio
 | **Control logic** | i-Vent's built-in thresholds | your own automations: CO₂, humidity, presence, time of day, weather, window contacts, cooking, … |
 | **Zones** | up to 4 | every i-Vent group in your location |
 | **Combines with the rest of your home** | no | yes — lights, presence, calendars, notifications to your phone |
-| **Works without Home Assistant** | **yes** | no |
-| **Works without internet** | i-Vent's local link | no — this integration uses the i-Vent Cloud API |
+| **Works without internet** | yes (i-Vent local link) | currently via the i-Vent Cloud API — **local control is in development** |
 | **Setup effort** | place it and pair it | install, configure, write a few automations |
 
 **In short:** no Home Assistant → i-Cube is the easy answer. Already on Home Assistant → you most likely don't need it.

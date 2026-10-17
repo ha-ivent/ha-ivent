@@ -58,8 +58,7 @@ i-Vent rekuperatorji nimajo uradne integracije za Home Assistant. Ta integracija
 | **Logika upravljanja** | vgrajeni pragovi i-Vent | vaše lastne avtomatizacije: CO₂, vlaga, prisotnost, ura, vreme, okenska tipala, kuhanje … |
 | **Cone** | do 4 | vse skupine i-Vent na vaši lokaciji |
 | **Povezava s preostalim domom** | ne | da — luči, prisotnost, koledarji, obvestila na telefon |
-| **Deluje brez Home Assistanta** | **da** | ne |
-| **Deluje brez interneta** | lokalna povezava i-Vent | ne — integracija uporablja i-Vent Cloud API |
+| **Deluje brez interneta** | da (lokalna povezava i-Vent) | trenutno prek i-Vent Cloud API — **lokalno upravljanje je v razvoju** |
 | **Zahtevnost namestitve** | postavite in povežete | namestitev, nastavitev in nekaj avtomatizacij |
 
 **Na kratko:** brez Home Assistanta je i-Cube preprosta izbira. Če že uporabljate Home Assistant, ga najverjetneje ne potrebujete.
