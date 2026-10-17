@@ -81,13 +81,13 @@ automation:
         data: { preset_mode: boost }
 ```
 
-## Known behaviour: automatic night mode
+## Night mode in Home Assistant
 
-Some installations switch **all rooms** into night mode (speed 2 for 1 h, then "night silent" for 8 h) every evening, without anyone pressing a button — most likely triggered by a light sensor when a room goes dark. In Home Assistant this shows up as `fan_only` with preset `night` / `night_silent`. If you don't want it, a small automation can put the rooms back into recovery mode:
+i-Vent's night mode (speed from the "Night mode speed 1" setting for "Night mode duration 1", then "night silent" for "duration 2") can be started from the remote, the i-Vent app or at the configured night mode start time — and it applies to **all rooms of the location at once**. In Home Assistant it shows up as `fan_only` with preset `night` / `night_silent`. If you don't want night mode at all, a small automation can put the rooms back into recovery mode:
 
 ```yaml
 automation:
-  - alias: "i-Vent: no automatic night mode"
+  - alias: "i-Vent: no night mode"
     mode: parallel
     triggers:
       - trigger: state

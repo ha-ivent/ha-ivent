@@ -81,13 +81,13 @@ automation:
         data: { preset_mode: boost }
 ```
 
-## Znano obnašanje: samodejni nočni način
+## Nočni način v Home Assistantu
 
-Nekatere namestitve vsak večer preklopijo **vse sobe** v nočni način (1 h stopnja 2, nato 8 h »tiha noč«), ne da bi kdo pritisnil gumb — najverjetneje ga sproži svetlobni senzor, ko se prostor zatemni. V Home Assistantu se to vidi kot `fan_only` s prednastavitvijo `night` / `night_silent`. Če tega ne želite, sobe z majhno avtomatizacijo vrnete v rekuperacijo:
+Nočni način i-Vent (hitrost iz nastavitve »Night mode speed 1« za čas »Night mode duration 1«, nato »tiha noč« za »duration 2«) se lahko vklopi z daljinskim upravljalnikom, v aplikaciji i-Vent ali ob nastavljeni uri začetka nočnega načina — in velja za **vse sobe na lokaciji hkrati**. V Home Assistantu se vidi kot `fan_only` s prednastavitvijo `night` / `night_silent`. Če nočnega načina ne želite, sobe z majhno avtomatizacijo vrnete v rekuperacijo:
 
 ```yaml
 automation:
-  - alias: "i-Vent: brez samodejnega nočnega načina"
+  - alias: "i-Vent: brez nočnega načina"
     mode: parallel
     triggers:
       - trigger: state
