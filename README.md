@@ -1,3 +1,5 @@
+**English** | [Slovenščina](README.sl.md)
+
 # i-Vent Rekuperator — Home Assistant Integration
 
 Custom HACS integration for [i-Vent](https://i-vent.com/) heat recovery ventilation units via the **i-Vent Cloud API**.
