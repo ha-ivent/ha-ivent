@@ -4,9 +4,9 @@
   "codeowners": ["@YOUR_USERNAME"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/YOUR_USERNAME/hacs-ivent",
+  "documentation": "https://github.com/apeiron-M/ha-ivent",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/YOUR_USERNAME/hacs-ivent/issues",
+  "issue_tracker": "https://github.com/apeiron-M/ha-ivent/issues",
   "requirements": [],
   "version": "0.1.0"
 }
